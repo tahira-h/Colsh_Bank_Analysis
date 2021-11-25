@@ -32,14 +32,13 @@ Open the file containing data_target.
 ![data_target](/ColshBankAnalysis/Images/data_target.png)
 
 Close the file.
-  ----------------data_target pic here---------------
 
 Open the file containing data_set.
 
 ![data_set](/ColshBankAnalysis/Images/data_set.png)
 
 Close the file.
-  ----------------data_set pic here-------------------
+
   
 Training and Testing
   
@@ -50,7 +49,7 @@ Open the file containing training_and_testing.
 ![training_and_testing](/ColshBankAnalysis/Images/training_and_testing.png)
 
 Close the file.
-----------------training_and_testing pic here------------------------------
+
 
 
 Decision Tree Classifier
@@ -62,7 +61,7 @@ Open the file containing decision_tree_classifier.
 ![decision_tree_classifier](/ColshBankAnalysis/Images/decision_tree_classifier.png)
 
 Close the file.
--------------------decision_tree_classifier pic here----------------------------
+
 
 RandomForestClassifier
 
@@ -73,7 +72,7 @@ Open the file containing random_forest_classifier.
 ![random_forest_classifier](/ColshBankAnalysis/Images/random_forest_classifier.png)
 
 Close the file.
------------------------RandomForestClassifier pic here---------------------
+
 
 The Classification Report results for the RandomForestClassifier model show the accuracy is 82%(0.82) the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
 of No for 'Loan_Status' is 49%(0.49), the precision of Yes for 'Loan_Status' is 82%(0.82), and the recall of Yes for 'Loan_Status' is 96%(0.96).
@@ -89,7 +88,7 @@ Open the file containing decision_tree_graph.
 ![decision_tree_graph](/ColshBankAnalysis/Images/decision_tree_graph.png)
 
 Close the file.
------------------decision_tree_graph pic here---------------
+
 
 The root node. Loan_ID_LP001708, has a gini of 0.431, samples is 234, value is 113 and 247, class is N. 
 
