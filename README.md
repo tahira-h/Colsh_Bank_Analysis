@@ -87,7 +87,7 @@ Close the file.
 
 
 
-The root node, Loan_ID_LP001708, has a gini of 0.431, samples is 234, value is 113 and 247, and class is N. 
+The root node, Loan_ID_LP001708, has a gini of 0.431, samples is 234, value is 113, 247, and class is N. 
 
 The root node's results of True gini is 0.425 and False gini 0.0. The results measures the probability of a wrongly classified variable when chosen randomly in this analysis. 
 
