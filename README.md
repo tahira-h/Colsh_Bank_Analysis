@@ -11,7 +11,7 @@ Excel
 
 ### Overview
 
-#### The Purpose:
+#### Purpose:
 
 The purpose of this analysis is to use the dataset from a bank services company called Colsh Tech. The dataset from this company will allow analysts to use algorithms to apply different classification model for the prediction and find out the better accuracy. 
 
