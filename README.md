@@ -15,7 +15,7 @@ Excel
 
 The purpose of this analysis is to use the dataset from a bank services company called Colsh Tech. The dataset from this company will allow analysts to use algorithms to apply different classification model for the prediction and find out the better accuracy. 
 
-The analysis provided will evaluate the performance of two models DecisionTreeClassifier and RandomForestClassifier, and recommend whether or not the models should be used to predict better accuracy for the bank's clients listed in the dataset.
+The analysis provided will evaluate the performance of two models DecisionTreeClassifier and RandomForestClassifier, and recommend which model should be used to predict better accuracy for the bank's clients listed in the dataset.
 
 ### Results
 
