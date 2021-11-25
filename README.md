@@ -15,7 +15,11 @@ The Purpose
 
 The purpose of this analysis is to use the dataset from a bank services company called Colsh Tech. The dataset from this company will allow analysts to use algorithms to apply different classification model for the prediction and find out the better accuracy. 
 
-The analysis provided will evaluate the performance of the model and recommend whether or not the model should be used to predict better accuracy for the bank clients listed in the dataset.
+The analysis provided will evaluate the performance of two models DecisionTreeClassifier and RandomForestClassifier, and recommend whether or not the models should be used to predict better accuracy for the bank's clients listed in the dataset.
+
+	- DecisionTreeClassifier model, there is 21 data points missed, providing the wrong calculations. The accuracy percentage is 79%(0.79). Lowest accuracy rate
+	
+	- the second model, RandomForestClassifier, and complete the confusion matrix, take a look at the previous accuracy the first model DecisionTreeClassifer. There were 21 	   mistakes made with an accuracy score of 79%(0.79). Currently the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). Higher accuracy rate
 
 ### RESULTS
 
@@ -28,64 +32,59 @@ There are 13 feature names(columns) listed in this data set. The "data" represen
 There is one "target" in the data set, Loan_Status. The Loan_Status column represents individuals in the data set that does or does not have a loan with the bank. In the data set, the "Y" represents individuals with a loan, the "N" represents individuals without a loan. The analysis is to figure out why the Y and N is there. 
 
   ----------------data_target pic here---------------
+  
+  ----------------data_set pic here-------------------
+  
+  Training and Testing
+  
+Next the data is split into Training and Testing to receive the actual and predicted values
+
+----------------training_and_testing pic here------------------------------
 
 
 Decision Tree Classifier
 
-For the Native Random Oversampling data, results shows that the balanced accuracy test is 64.94%(0.6494575410534504), the precision is 1%(1.00), and the recall is 73%( 0.73).
+After receiving the actual and predicted values DecisionTreeClassifier model is imported and accuracy is calculated. According to the accuracy, there is 21 data points missed, providing the wrong calculations. The accuracy percentage is 79%(0.79).
 
+-------------------decision_tree_classifier pic here----------------------------
+
+RandomForestClassifier
+
+Once we have imported the second model, RandomForestClassifier, and complete the confusion matrix, take a look at the previous accuracy the first model DecisionTreeClassifer. There were 21 mistakes made with an accuracy score of 79%(0.79). Currently the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). There were 21 mistakes in DecisionTreeClassifer, now the mistakes came down to 18, with a higher accuracy score. 
+
+-----------------------RandomForestClassifier pic here---------------------
 
 Classification Report
 	(Line 114)... Line 113 too??
 
-For the first Classification Report completed after the Decision Tree Classifier, 
-results show that the accuracy is 82%(0.82),
-the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
-of No for 'Loan_Status' is 49%(0.49),
-the precision of Yes for 'Loan_Status' is 82%(0.82), and the recall
-of Yes for 'Loan_Status' is 96%(0.96).
-
-Confusion Matrix
-...
-
-Classification Report 
-	(LINE 117)
-
-
-For the first Classification Report completed after the confusion matrix was 
-completed, the Classification Report 
-shows accuracy increased to 83%(0.8333333333333334),
-the precision of No for 'Loan_Status' is 86%(0.86), and the recall 
-of No for 'Loan_Status' is 51%(0.51),
-the precision of Yes for 'Loan_Status' is 83%(0.83), and the recall
-of Yes for 'Loan_Status' is 96%(0.96).
+The Classification Report results for the RandomeForestClassifier model show the accuracy is 82%(0.82) the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
+of No for 'Loan_Status' is 49%(0.49), the precision of Yes for 'Loan_Status' is 82%(0.82), and the recall of Yes for 'Loan_Status' is 96%(0.96).
 
 Tree Graph
 	(cell "import graphviz")
 
-A tree graph is presented showing .png format. What the graph presents is
+A decision tree graph is presented showing .png format. What the graph presents is results from the dataset. A decision tree includes gini, samples, values, and class. 
 
+As shown in the image below, each box contains characteristics representing the data presented in this analysis. The top box(root node) is where a question is asked. For instance, the question in the root node's answer is True or False. If the answer to the root node is True, the action of the question divides the data into smaller subsets. 
 
+-----------------decision_tree_graph pic here---------------
 
-Tree Plot
-	(cell "fn=train.feature_names")
+The root node. Loan_ID_LP001708, has a gini of 0.431, samples is 234, value is 113 and 247, class is N. 
 
-A tree plot is presented showing .png format. What the graph presents is
+The root node's results of True gini is 0.425 and False gini 0.0. Which measures the probability of a wrongly classified variable when chosen randomly in this analysis. 
 
+The results of True samples is 233 and False samples is 1. 
+
+The results of True value is 109, 247 and False value is 4, 0. Which is how the tested information is split up. For instance, the root node value is 360, altogether the True value is 356, and altogether the False value is 4.
+
+The results of True class is N, and False class is Y. Whis is the target feature. 
 
 ### SUMMARY
 
 Results
 
-The Oversampled, Undersampled, and Combination of (Over and Under) 
-Sampled data predicted which loans are at higher risk for LendingClub. 
-The accuracy rate of the data provided was lower than the data provided 
-for Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier. 
-In addition, the accuracy rate of the data provided from Easy Ensemble 
-AdaBoost Classifier was higher than Balanced Random Forest Classifier. 
-As aforementioned, Easy Ensemble AdaBoost Classifier data results shows 
-that the balanced accuracy test is 91.78%(0.9178773283613644), 
-the precision is 1%(1.00), and the recall is 89%(0.89).
+The performance of two models DecisionTreeClassifier and RandomForestClassifier were used for the prediction of dataset provided by a bank services company named Colsh Tech.
+The accuracy rate of the DecisionTreeClassifier model provided wrong calculations of 21 data points missed, and a lower accuracy score of 79%(0.70) than the data provided. In contrast, the accuracy rate of the RandomForestClassifier model provided wrong calculations of 18 data points missed, and a higher accuracy score of 82%(0.82).
 
 Recommendation
 
@@ -94,21 +93,4 @@ of accuracy score, balance of precision, and recall scores. It is recommended
 that LendingClub uses Easy Ensemble AdaBoost Classifier's data to predict 
 credit risk.
 
-
-
-
-=================================================
-Video from class
-
-Gini: 
-Gini index or Gini impurity measures the degree or 
-probability of a particular variable being wrongly classified 
-when it is randomly chosen. But what is actually meant by 'impurity'? 
-If all the elements belong to a single class, then it can be called pure.
-
-
-Samples 
-
-Value: 
-
-Class
+With RandomForestClassifier model having the highest percentage score of accuracy. It is recommended that bank services company Colsh Tech use the RandomForestClassifier model to present the better accuracy score for clients listed in the dataset.
