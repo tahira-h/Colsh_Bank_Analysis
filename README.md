@@ -27,14 +27,29 @@ There are 13 feature names(columns) listed in this data set. The "data" represen
 
 There is one "target" in the data set, Loan_Status. The Loan_Status column represents individuals in the data set that does or does not have a loan with the bank. In the data set, the "Y" represents individuals with a loan, the "N" represents individuals without a loan. The analysis is to figure out why the Y and N is there. 
 
+Open the file containing data_target.
+
+![data_target](/UFOs/static/images/data_target.png)
+
+Close the file.
   ----------------data_target pic here---------------
-  
+
+Open the file containing data_set.
+
+![data_set](/UFOs/static/images/data_set.png)
+
+Close the file.
   ----------------data_set pic here-------------------
   
-  Training and Testing
+Training and Testing
   
 Next the data is split into Training and Testing to receive the actual and predicted values
 
+Open the file containing training_and_testing.
+
+![training_and_testing](/UFOs/static/images/training_and_testing.png)
+
+Close the file.
 ----------------training_and_testing pic here------------------------------
 
 
@@ -42,27 +57,38 @@ Decision Tree Classifier
 
 After receiving the actual and predicted values DecisionTreeClassifier model is imported and accuracy is calculated. According to the accuracy, there is 21 data points missed, providing the wrong calculations. The accuracy percentage is 79%(0.79).
 
+Open the file containing decision_tree_classifier.
+
+![decision_tree_classifier](/UFOs/static/images/decision_tree_classifier.png)
+
+Close the file.
 -------------------decision_tree_classifier pic here----------------------------
 
 RandomForestClassifier
 
 Once we have imported the second model, RandomForestClassifier, and complete the confusion matrix, take a look at the previous accuracy the first model DecisionTreeClassifer. There were 21 mistakes made with an accuracy score of 79%(0.79). Currently the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). There were 21 mistakes in DecisionTreeClassifer, now the mistakes came down to 18, with a higher accuracy score. 
 
+Open the file containing random_forest_classifier.
+
+![random_forest_classifier](/UFOs/static/images/random_forest_classifier.png)
+
+Close the file.
 -----------------------RandomForestClassifier pic here---------------------
 
-Classification Report
-	(Line 114)... Line 113 too??
-
-The Classification Report results for the RandomeForestClassifier model show the accuracy is 82%(0.82) the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
+The Classification Report results for the RandomForestClassifier model show the accuracy is 82%(0.82) the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
 of No for 'Loan_Status' is 49%(0.49), the precision of Yes for 'Loan_Status' is 82%(0.82), and the recall of Yes for 'Loan_Status' is 96%(0.96).
 
 Tree Graph
-	(cell "import graphviz")
 
 A decision tree graph is presented showing .png format. What the graph presents is results from the dataset. A decision tree includes gini, samples, values, and class. 
 
 As shown in the image below, each box contains characteristics representing the data presented in this analysis. The top box(root node) is where a question is asked. For instance, the question in the root node's answer is True or False. If the answer to the root node is True, the action of the question divides the data into smaller subsets. 
 
+Open the file containing decision_tree_graph.
+
+![decision_tree_graph](/UFOs/static/images/decision_tree_graph.png)
+
+Close the file.
 -----------------decision_tree_graph pic here---------------
 
 The root node. Loan_ID_LP001708, has a gini of 0.431, samples is 234, value is 113 and 247, class is N. 
