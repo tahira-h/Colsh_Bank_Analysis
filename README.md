@@ -70,7 +70,7 @@ Close the file.
 
 
 
-As shown in he Classification Report above, results for the RandomForestClassifier model shows an accuracy of 82%(0.82), the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
+As shown in the image above, Classification Report results for the RandomForestClassifier model shows an accuracy of 82%(0.82), the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
 of No for 'Loan_Status' is 49%(0.49). The precision of Yes for 'Loan_Status' is 82%(0.82), and the recall of Yes for 'Loan_Status' is 96%(0.96).
 
 
