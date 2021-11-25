@@ -102,7 +102,7 @@ The results of True class is N, and False class is Y. Which is the target featur
 #### Results:
 
 The performance of two models DecisionTreeClassifier and RandomForestClassifier were used for the prediction of a dataset provided by bank services company Colsh Tech.
-The accuracy rate of the DecisionTreeClassifier model provided wrong calculations of 21 data points missed, and a lower accuracy score of 79%(0.70). In contrast, the accuracy rate of the RandomForestClassifier model provided wrong calculations of 18 data points missed, and a higher accuracy score of 82%(0.82).
+The DecisionTreeClassifier model provided wrong calculations of 21 data points missed, and a lower accuracy score of 79%(0.70). In contrast, the RandomForestClassifier model provided wrong calculations of 18 data points missed, and a higher accuracy score of 82%(0.82).
 
 #### Recommendation:
 
