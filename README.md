@@ -76,7 +76,7 @@ of No for 'Loan_Status' is 49%(0.49). The precision of Yes for 'Loan_Status' is 
 
 #### Tree Graph:
 
-A decision tree graph is presented showing .png format. The decision tree graph presents results from the dataset. The decision tree includes gini, samples, values, and class. 
+A decision tree graph is presented showing .png format. The decision tree graph presents results from the dataset. The decision tree includes: gini, samples, values, and class. 
 
 As shown in the image below, each box contains characteristics representing the dataset presented in this analysis. The top box(root node) is where a question is asked. The answers for the root node is True and False. If the answer to the root node is True, the action of the question divides the data into smaller subsets. 
 
