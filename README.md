@@ -36,7 +36,7 @@ Close the file.
 
 Open the file containing data_set.
 
-![data_set](/UFOs/static/images/data_set.png)
+![data_set](/ColshBankAnalysis/Images/data_set.png)
 
 Close the file.
   ----------------data_set pic here-------------------
@@ -47,7 +47,7 @@ Next the data is split into Training and Testing to receive the actual and predi
 
 Open the file containing training_and_testing.
 
-![training_and_testing](/UFOs/static/images/training_and_testing.png)
+![training_and_testing](/ColshBankAnalysis/Images/training_and_testing.png)
 
 Close the file.
 ----------------training_and_testing pic here------------------------------
@@ -59,7 +59,7 @@ After receiving the actual and predicted values DecisionTreeClassifier model is 
 
 Open the file containing decision_tree_classifier.
 
-![decision_tree_classifier](/UFOs/static/images/decision_tree_classifier.png)
+![decision_tree_classifier](/ColshBankAnalysis/Images/decision_tree_classifier.png)
 
 Close the file.
 -------------------decision_tree_classifier pic here----------------------------
@@ -70,7 +70,7 @@ Once we have imported the second model, RandomForestClassifier, and complete the
 
 Open the file containing random_forest_classifier.
 
-![random_forest_classifier](/UFOs/static/images/random_forest_classifier.png)
+![random_forest_classifier](/ColshBankAnalysis/Images/random_forest_classifier.png)
 
 Close the file.
 -----------------------RandomForestClassifier pic here---------------------
@@ -86,7 +86,7 @@ As shown in the image below, each box contains characteristics representing the 
 
 Open the file containing decision_tree_graph.
 
-![decision_tree_graph](/UFOs/static/images/decision_tree_graph.png)
+![decision_tree_graph](/ColshBankAnalysis/Images/decision_tree_graph.png)
 
 Close the file.
 -----------------decision_tree_graph pic here---------------
