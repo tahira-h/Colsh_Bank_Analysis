@@ -29,7 +29,7 @@ There is one "target" in the data set, Loan_Status. The Loan_Status column repre
 
 Open the file containing data_target.
 
-![data_target](/UFOs/static/images/data_target.png)
+![data_target](/ColshBankAnalysis/Images/data_target.png)
 
 Close the file.
   ----------------data_target pic here---------------
