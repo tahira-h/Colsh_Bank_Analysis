@@ -9,7 +9,7 @@ Python
 ### Tools: 
 Excel
 
-### OVERVIEW
+### Overview
 
 The Purpose
 
@@ -17,7 +17,7 @@ The purpose of this analysis is to use the dataset from a bank services company 
 
 The analysis provided will evaluate the performance of two models DecisionTreeClassifier and RandomForestClassifier, and recommend whether or not the models should be used to predict better accuracy for the bank's clients listed in the dataset.
 
-### RESULTS
+### Results
 
 Data Set Analysis
 
@@ -75,7 +75,7 @@ The results of True value is 109, 247 and False value is 4, 0. Which is how the 
 
 The results of True class is N, and False class is Y. Whis is the target feature. 
 
-### SUMMARY
+### Summary
 
 Results
 
@@ -83,10 +83,5 @@ The performance of two models DecisionTreeClassifier and RandomForestClassifier 
 The accuracy rate of the DecisionTreeClassifier model provided wrong calculations of 21 data points missed, and a lower accuracy score of 79%(0.70) than the data provided. In contrast, the accuracy rate of the RandomForestClassifier model provided wrong calculations of 18 data points missed, and a higher accuracy score of 82%(0.82).
 
 Recommendation
-
-With Easy Ensemble AdaBoost Classifier having the highest percentage 
-of accuracy score, balance of precision, and recall scores. It is recommended 
-that LendingClub uses Easy Ensemble AdaBoost Classifier's data to predict 
-credit risk.
 
 With RandomForestClassifier model having the highest percentage score of accuracy. It is recommended that bank services company Colsh Tech use the RandomForestClassifier model to present the better accuracy score for clients listed in the dataset.
