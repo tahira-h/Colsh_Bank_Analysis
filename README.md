@@ -61,7 +61,7 @@ Close the file.
 
 #### RandomForestClassifier:
 
-Once we import the second model, RandomForestClassifier, and complete the confusion matrix, take a look at the previous accuracy of the first model DecisionTreeClassifer. There were 21 mistakes made with an accuracy score of 79%(0.79). Currently the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). There were 21 mistakes in DecisionTreeClassifer, now the mistakes came down to 18, with a higher accuracy score. 
+Once the second model, RandomForestClassifier, is imported and the confusion matrix is completed, take a look at the previous accuracy of the first model DecisionTreeClassifer. There were 21 mistakes made with an accuracy score of 79%(0.79). Currently, the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). There were 21 mistakes in DecisionTreeClassifer, now the mistakes decreased to 18, with a higher accuracy score. 
 
 Open the file containing random_forest_classifier.
 
@@ -70,15 +70,15 @@ Close the file.
 
 
 
-The Classification Report results for the RandomForestClassifier model shows the accuracy is 82%(0.82) the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
-of No for 'Loan_Status' is 49%(0.49), the precision of Yes for 'Loan_Status' is 82%(0.82), and the recall of Yes for 'Loan_Status' is 96%(0.96).
+The Classification Report results for the RandomForestClassifier model shows an accuracy of 82%(0.82), the precision of No for 'Loan_Status' is 85%(0.85), and the recall 
+of No for 'Loan_Status' is 49%(0.49). The precision of Yes for 'Loan_Status' is 82%(0.82), and the recall of Yes for 'Loan_Status' is 96%(0.96).
 
 
 #### Tree Graph:
 
 A decision tree graph is presented showing .png format. The decision tree graph presents results from the dataset. The decision tree includes gini, samples, values, and class. 
 
-As shown in the image below, each box contains characteristics representing the dataset presented in this analysis. The top box(root node) is where a question is asked. For instance, the question in the root node's answer is True and False. If the answer to the root node is True, the action of the question divides the data into smaller subsets. 
+As shown in the image below, each box contains characteristics representing the dataset presented in this analysis. The top box(root node) is where a question is asked. The answers for the root node is True and False. If the answer to the root node is True, the action of the question divides the data into smaller subsets. 
 
 Open the file containing decision_tree_graph.
 
@@ -87,13 +87,13 @@ Close the file.
 
 
 
-The root node, Loan_ID_LP001708, has a gini of 0.431, samples is 234, value is 113 and 247, class is N. 
+The root node, Loan_ID_LP001708, has a gini of 0.431, samples is 234, value is 113 and 247, and class is N. 
 
-The root node's results of True gini is 0.425 and False gini 0.0. Which measures the probability of a wrongly classified variable when chosen randomly in this analysis. 
+The root node's results of True gini is 0.425 and False gini 0.0. The results measures the probability of a wrongly classified variable when chosen randomly in this analysis. 
 
 The results of True samples is 233 and False samples is 1. 
 
-The results of True value is 109, 247 and False value is 4, 0. Which is how the tested information is split up. For instance, the root node value is 360, altogether the True value is 356, and altogether the False value is 4.
+The results of True value is 109, 247 and False value is 4, 0. Value is how the tested information is split up. For instance, the root node value is 360, altogether the True value is 356, and altogether the False value is 4.
 
 The results of True class is N, and False class is Y. Whis is the target feature. 
 
