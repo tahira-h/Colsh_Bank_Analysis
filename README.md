@@ -17,10 +17,6 @@ The purpose of this analysis is to use the dataset from a bank services company 
 
 The analysis provided will evaluate the performance of two models DecisionTreeClassifier and RandomForestClassifier, and recommend whether or not the models should be used to predict better accuracy for the bank's clients listed in the dataset.
 
-	- DecisionTreeClassifier model, there is 21 data points missed, providing the wrong calculations. The accuracy percentage is 79%(0.79). Lowest accuracy rate
-	
-	- the second model, RandomForestClassifier, and complete the confusion matrix, take a look at the previous accuracy the first model DecisionTreeClassifer. There were 21 	   mistakes made with an accuracy score of 79%(0.79). Currently the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). Higher accuracy rate
-
 ### RESULTS
 
 Data Set Analysis
