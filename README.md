@@ -93,7 +93,7 @@ The root node's results of True gini is 0.425 and False gini 0.0. The results me
 
 The results of True samples is 233 and False samples is 1. 
 
-The results of True value is 109, 247 and False value is 4, 0. Value is how the tested information is split up. For instance, the root node value is 360, altogether the True value is 356, and altogether the False value is 4.
+The results of True value is 109, 247 and False value is 4, 0. Value is how the tested information is split up. For instance, the root node value is 360, altogether the True value is 356, and altogether the False value is 4. (NOTE: 356(True) + 4(False) = 360(root node))
 
 The results of True class is N, and False class is Y. Whis is the target feature. 
 
