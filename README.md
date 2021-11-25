@@ -23,7 +23,7 @@ For this analysis, "Train.csv" is the dataset used to complete predictions and f
 
 As shown in the image below, the "data" represents all of the feature names(columns) listed in the dataset. There are 13 feature names listed in the dataset: Loan_ID, Gender, Married, Dependents, Education, Self_Employed, ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History, Property_Area, and Loan_Status.
 
-There is one "target" in the data set, Loan_Status. The Loan_Status column represents individuals listed in the dataset that does or does not have a loan with the bank. In the dataset, the "Y" represents individuals that does have a loan, the "N" represents individuals that does not have a loan. 
+There is one "target" in the data set, Loan_Status. The Loan_Status column represents individuals listed in the dataset that does or does not have a loan with the bank. In the dataset, "Y" represents individuals that does have a loan, and "N" represents individuals that does not have a loan. 
 
 Open the file containing data_target.
 
