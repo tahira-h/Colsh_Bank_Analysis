@@ -39,7 +39,7 @@ Close the file.
   
 #### Training and Testing:
   
-The data is split into training and testing to receive the actual and predicted values
+The data is split into training and testing to receive the actual and predicted values.
 
 Open the file containing training_and_testing.
 
