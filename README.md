@@ -17,7 +17,7 @@ The purpose of this analysis is to use the dataset from a bank services company 
 
 ### Results
 
-#### Data Set Analysis:
+#### Dataset Analysis:
 
 For this analysis, "Train.csv" is the dataset used to complete predictions and find accuracy.
 
