@@ -61,7 +61,7 @@ Close the file.
 
 #### RandomForestClassifier:
 
-Once the second model, RandomForestClassifier, is imported and the confusion matrix is completed, take a look at the previous accuracy of the first model DecisionTreeClassifer. There were 21 mistakes made with an accuracy score of 79%(0.79). Currently, the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). There were 21 mistakes in DecisionTreeClassifer, now the mistakes decreased to 18, with a higher accuracy score. 
+Once the second model, RandomForestClassifier, is imported and the confusion matrix is completed, take a look at the previous accuracy of the first model DecisionTreeClassifer. There were 21 mistakes made with an accuracy score of 79%(0.79). Currently, the RandomForestClassifier has 18 mistakes made with an accuracy score of 82%(0.82). There were 21 mistakes in DecisionTreeClassifer, now the mistakes decreased to 18. 
 
 Open the file containing random_forest_classifier.
 
