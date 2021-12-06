@@ -13,7 +13,7 @@ Excel
 
 #### Purpose:
 
-The purpose of this analysis is to use the dataset from a bank services company called Colsh Tech. The dataset from this company will allow analysts to use algorithms to apply different classification model for the prediction and find out the better accuracy. 
+The purpose of this analysis is to use the dataset from a bank services company called Colsh Tech Bank (C.T. Bank). The dataset from this company will allow analysts to use algorithms to apply different classification model for the prediction and find out the better accuracy. 
 
 ### Results
 
@@ -101,9 +101,9 @@ The results of True class is N, and False class is Y. Which is the target featur
 
 #### Results:
 
-The performance of two models DecisionTreeClassifier and RandomForestClassifier were used for the prediction of a dataset provided by bank services company Colsh Tech.
+The performance of two models DecisionTreeClassifier and RandomForestClassifier were used for the prediction of a dataset provided by bank services company C.T. Bank.
 The DecisionTreeClassifier model provided wrong calculations of 21 data points missed, and a lower accuracy score of 79%(0.70). In contrast, the RandomForestClassifier model provided wrong calculations of 18 data points missed, and a higher accuracy score of 82%(0.82).
 
 #### Recommendation:
 
-With RandomForestClassifier model having the highest percentage score of accuracy. It is recommended that bank services company Colsh Tech use the RandomForestClassifier model to present the better accuracy score for clients listed in the dataset.
+With RandomForestClassifier model having the highest percentage score of accuracy. It is recommended that bank services company C.T. Bank use the RandomForestClassifier model to present the better accuracy score for clients listed in the dataset.
